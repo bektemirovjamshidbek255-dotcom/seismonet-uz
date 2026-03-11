@@ -292,7 +292,7 @@
 
   <div id="serverInputWrap" style="display:none; text-align:center;">
     <p style="font-size:.72rem; margin-bottom:6px; color:var(--muted);">Server manzili (ws://...)</p>
-    <input id="wsUrlInput" type="text" value="wss://web-production-5add3.up.railway.app/ws"
+    <input id="wsUrlInput" type="text" value="https://web-production-0d2a.up.railway.app/"
       style="background:#0d1117; border:1px solid #1a2030; color:#e8eaf0;
              border-radius:8px; padding:8px 14px; font-family:monospace;
              font-size:.8rem; width:280px; text-align:center;">
@@ -376,7 +376,7 @@
         <span style="color:var(--blue);">🌐 Server:</span>
         <span id="serverAddr" style="color:var(--muted);">—</span>
         <div class="server-url-row">
-          <input id="wsUrlChange" type="text" placeholder="wss://web-production-5add3.up.railway.app/ws">
+          <input id="wsUrlChange" type="text" placeholder="https://web-production-0d2a.up.railway.app/">
           <button onclick="reconnectWS()">ULASH</button>
         </div>
       </div>
@@ -491,7 +491,7 @@
 //  KONFIGURATSIYA
 // ============================================================
 let APP_MODE    = 'local';   // 'local' | 'server'
-let WS_URL      = 'wss://web-production-5add3.up.railway.app/ws';
+let WS_URL      = 'https://web-production-0d2a.up.railway.app/';
 let DEVICE_ID   = 'dev_' + Math.random().toString(36).slice(2, 10);
 let userLat     = null;
 let userLng     = null;
